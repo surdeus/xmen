@@ -337,8 +337,8 @@ keypress(XKeyEvent *ev)
 		case XK_J: /* fallthrough */
 		case XK_m: /* fallthrough */
 		case XK_M: ksym = XK_Return; ev->state &= ~ControlMask; break;
-		case XK_j: ksym = XK_Down;      break;
-		case XK_k: ksym = XK_Up;        break;
+		case XK_k: ksym = XK_Down;      break;
+		case XK_j: ksym = XK_Up;        break;
 
 		case XK_L: /* delete right */
 			text[cursor] = '\0';
